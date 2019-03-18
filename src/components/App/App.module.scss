@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  max-width: 1000px;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  li {
+    margin-right: 1rem;
+    a {
+      color: #ff8484;
+      font-size: 1.25em;
+      text-decoration: none;
+    }
+  }
+}
