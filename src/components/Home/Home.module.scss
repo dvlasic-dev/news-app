@@ -1,0 +1,28 @@
+@import '../../constants/variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.625rem auto;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  form{
+    display: flex;
+  }
+  input[type='text'] {
+    font-size: 20px;
+    padding: 5px;
+  }
+  input[type='submit'] {
+    width: 80px;
+    height: 37px;
+    background-color: $pink-red;
+    border: 0;
+    color: #f4f3f3;
+    font-size: 1em;
+    margin-left: 16px;
+  }
+}

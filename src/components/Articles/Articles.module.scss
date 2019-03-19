@@ -1,0 +1,25 @@
+@import '../../constants/variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  border: 1px solid $dark-grey;
+  margin: 25px 0;
+  a {
+    margin: 0.625rem;
+    text-decoration: none;
+    h3 {
+      color: $dark-grey;
+      font-size: 1.375em;
+    }
+    p:nth-child(2){
+      color: $dark-grey-two;
+      font-size: 1.125em;
+      margin: 10px 0;
+    }
+    p:nth-child(3){
+      color: $purple;
+    }
+  }
+}
