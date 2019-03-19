@@ -11,10 +11,8 @@ const Articles = props => {
               <h3>{article.title}</h3>
               <p>{article.description}</p>
               <p>{article.author}</p>
+              <p>{String(new Date(article.publishedAt)).slice(4, 21)}</p>
             </a>
-            {
-              //style Form for search
-            }
           </div>
         );
       })}

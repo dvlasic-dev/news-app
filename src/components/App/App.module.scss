@@ -7,18 +7,29 @@
   margin: 1rem auto;
   max-width: 1300px;
   font-family: 'Arimo', sans-serif;
-  
 }
 .list {
   display: flex;
   justify-content: center;
   list-style: none;
+
   li {
     margin-right: 1rem;
+    @include rwd(320) {
+      margin-right: 0.8rem;
+    }
     a {
       color: $pink-red;
       font-size: 1.25em;
       text-decoration: none;
+      @include rwd(320) {
+        font-size: 1.2em;
+      }
+    }
+  }
+  li:last-of-type{
+    @include rwd(320) {
+      margin-right: 0;
     }
   }
 }

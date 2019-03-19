@@ -8,13 +8,19 @@
 }
 .form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  form{
+  form {
     display: flex;
+    justify-content: center;
   }
   input[type='text'] {
-    font-size: 20px;
+    font-size: 1.25em;
     padding: 5px;
+    height: 100%;
+    @include rwd(320){
+      max-width: 190px;
+    }
   }
   input[type='submit'] {
     width: 80px;

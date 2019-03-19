@@ -2,3 +2,13 @@ $pink-red: #ff8484;
 $dark-grey: #222831;
 $dark-grey-two: #252a34;
 $purple: #b83b5e;
+$extra-small: 320px;
+$small: 370px;
+$small-M: 425px;
+
+//responsive mixin
+@mixin rwd($screen) {
+  @media (max-width: $screen+'px') {
+      @content;
+  }
+}

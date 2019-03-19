@@ -1,4 +1,5 @@
 import React from 'react';
+import { Articles } from '../index';
 
 import styles from './Home.module.scss';
 
@@ -18,6 +19,9 @@ const Home = props => {
             </label>
             <input type="submit" value="Submit" />
           </form>
+          {props.newsArticles ? (
+            <Articles newsArticles={props.newsArticles} />
+          ) : null}
         </div>
       </section>
     </React.Fragment>
