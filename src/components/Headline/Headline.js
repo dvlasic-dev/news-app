@@ -9,7 +9,8 @@ class Headline extends React.Component {
   constructor() {
     super();
     this.state = {
-      results: null
+      results: null,
+      error: null
     };
   }
   fetchTopNews() {

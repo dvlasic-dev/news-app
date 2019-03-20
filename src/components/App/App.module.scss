@@ -19,7 +19,7 @@
       margin-right: 0.8rem;
     }
     a {
-      color: $pink-red;
+      color: $blue;
       font-size: 1.25em;
       text-decoration: none;
       @include rwd(320) {
@@ -27,7 +27,7 @@
       }
     }
   }
-  li:last-of-type{
+  li:last-of-type {
     @include rwd(320) {
       margin-right: 0;
     }

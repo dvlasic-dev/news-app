@@ -32,6 +32,7 @@ class App extends Component {
       .then(result => this.setState({ results: result.data }))
       .catch(error => this.setState({ error }));
   }
+
   handleSearchSubmit(event) {
     const { searchValue } = this.state;
     const joinWords = searchValue.split(' ').join('+');
