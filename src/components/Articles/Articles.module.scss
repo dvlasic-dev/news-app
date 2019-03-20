@@ -6,7 +6,7 @@
   max-width: 800px;
   border: 1px solid $dark-grey;
   margin: 25px 0;
-  @include rwd(320) {
+  @include max-rwd(320) {
     max-width: 320px;
   }
   a {

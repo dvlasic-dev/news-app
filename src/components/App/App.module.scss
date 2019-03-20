@@ -15,21 +15,19 @@
 
   li {
     margin-right: 1rem;
-    @include rwd(320) {
+    @include max-rwd(320) {
       margin-right: 0.8rem;
     }
     a {
       color: $blue;
       font-size: 1.25em;
       text-decoration: none;
-      @include rwd(320) {
+      @include max-rwd(320) {
         font-size: 1.2em;
       }
     }
   }
   li:last-of-type {
-    @include rwd(320) {
-      margin-right: 0;
-    }
+    margin-right: 0;
   }
 }

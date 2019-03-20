@@ -21,6 +21,12 @@
     @include rwd(320){
       max-width: 190px;
     }
+    @include rwd(375){
+      max-width: 250px;
+    }
+    @include rwd(425){
+      max-width: 100%;
+    }
   }
   input[type='submit'] {
     width: 80px;
